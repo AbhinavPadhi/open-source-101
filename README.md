@@ -23,7 +23,7 @@ It was created as part of a student research project about how students choose a
 
 ## Visit the site
 
-link
+[link](https://abhinavpadhi.github.io/open-source-101/)
 
 ## License
 
