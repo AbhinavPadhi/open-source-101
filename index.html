@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple introduction to open source software for students.">
+  <title>Open Source 101</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a class="logo" href="#top">Open Source 101</a>
+
+    <nav>
+      <a href="#what">What is it?</a>
+      <a href="#examples">Examples</a>
+      <a href="#compare">Compare</a>
+      <a href="#quiz">Quiz</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">A simple introduction</p>
+
+        <h1>What is open source?</h1>
+
+        <p class="hero-description">
+          You have probably used open source software before without knowing it.
+          Open source software is software where the source code is available for
+          people to study, change and share, depending on its license.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button primary" href="#what">Learn more</a>
+          <a class="button secondary" href="#quiz">Take the quiz</a>
+        </div>
+      </div>
+
+      <div class="code-card">
+        <div class="window-bar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <pre><code>def hello():
+    print("Hello, open source!")
+
+hello()</code></pre>
+      </div>
+    </section>
+
+
+    <section class="section" id="what">
+
+      <div class="section-heading">
+        <p class="eyebrow">01</p>
+
+        <h2>What is open source?</h2>
+
+        <p>
+          Think of software like a recipe. With open source software, the source
+          code is available to others. People can look at the code, learn from it
+          and make changes when the license allows it.
+        </p>
+
+        <p>
+          The important part is not just that the software is free. Open source is
+          also about being able to study, improve and share software.
+        </p>
+      </div>
+
+
+      <div class="info-grid">
+
+        <article class="info-card">
+          <span class="number">01</span>
+          <h3>See the code</h3>
+          <p>The source code is available to people.</p>
+        </article>
+
+        <article class="info-card">
+          <span class="number">02</span>
+          <h3>Learn from it</h3>
+          <p>You can see how the software works.</p>
+        </article>
+
+        <article class="info-card">
+          <span class="number">03</span>
+          <h3>Change it</h3>
+          <p>The license may allow you to modify the code.</p>
+        </article>
+
+        <article class="info-card">
+          <span class="number">04</span>
+          <h3>Share it</h3>
+          <p>The license may allow you to share the software or your changes.</p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <section class="section muted-section">
+
+      <div class="section-heading">
+        <p class="eyebrow">02</p>
+
+        <h2>Why use open source?</h2>
+
+        <p>
+          Open source can be useful for students because you can learn from real
+          projects and see how software is made. It can also give you more choices
+          when looking for software.
+        </p>
+      </div>
+
+
+      <div class="benefit-grid">
+
+        <article class="benefit-card">
+          <h3>Learn</h3>
+          <p>
+            You can study real code and learn how software works.
+          </p>
+        </article>
+
+        <article class="benefit-card">
+          <h3>Community</h3>
+          <p>
+            People can contribute code, report problems and improve documentation.
+          </p>
+        </article>
+
+        <article class="benefit-card">
+          <h3>Transparency</h3>
+          <p>
+            The source code can be inspected by others.
+          </p>
+        </article>
+
+        <article class="benefit-card">
+          <h3>Choice</h3>
+          <p>
+            You can find alternatives to proprietary software.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <section class="section" id="examples">
+
+      <div class="section-heading">
+        <p class="eyebrow">03</p>
+
+        <h2>Open source software you may already know</h2>
+
+        <p>
+          Click on an example to learn more.
+        </p>
+      </div>
+
+
+      <div class="example-layout">
+
+        <div class="example-list">
+
+          <button class="example-button active" data-example="python">
+            Python
+          </button>
+
+          <button class="example-button" data-example="linux">
+            Linux
+          </button>
+
+          <button class="example-button" data-example="vlc">
+            VLC
+          </button>
+
+          <button class="example-button" data-example="blender">
+            Blender
+          </button>
+
+          <button class="example-button" data-example="gimp">
+            GIMP
+          </button>
+
+          <button class="example-button" data-example="libreoffice">
+            LibreOffice
+          </button>
+
+        </div>
+
+
+        <div class="example-detail">
+
+          <span class="example-label">Example</span>
+
+          <h3 id="exampleTitle">Python</h3>
+
+          <p id="exampleDescription">
+            A programming language used for programming, data science,
+            automation and many other things.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="section muted-section" id="compare">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">04</p>
+
+        <h2>Open source and proprietary software</h2>
+
+        <p>
+          The main difference is who controls the source code and what users are
+          allowed to do with it.
+        </p>
+
+      </div>
+
+
+      <div class="comparison">
+
+        <div class="comparison-column">
+
+          <h3>Open source</h3>
+
+          <div class="comparison-row">
+            <span>Source code</span>
+            <strong>Available under a license</strong>
+          </div>
+
+          <div class="comparison-row">
+            <span>Study the code</span>
+            <strong>Yes</strong>
+          </div>
+
+          <div class="comparison-row">
+            <span>Modify the code</span>
+            <strong>Depends on the license</strong>
+          </div>
+
+          <div class="comparison-row">
+            <span>Can it be free?</span>
+            <strong>Yes</strong>
+          </div>
+
+        </div>
+
+
+        <div class="comparison-column">
+
+          <h3>Proprietary</h3>
+
+          <div class="comparison-row">
+            <span>Source code</span>
+            <strong>Controlled by the developer</strong>
+          </div>
+
+          <div class="comparison-row">
+            <span>Study the code</span>
+            <strong>Usually no</strong>
+          </div>
+
+          <div class="comparison-row">
+            <span>Modify the code</span>
+            <strong>Usually no</strong>
+          </div>
+
+          <div class="comparison-row">
+            <span>Can it be free?</span>
+            <strong>Yes or paid</strong>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">05</p>
+
+        <h2>What are open source licenses?</h2>
+
+        <p>
+          An open source license explains what people are allowed to do with the
+          software. Different licenses have different rules.
+        </p>
+
+      </div>
+
+
+      <div class="license-grid">
+
+        <article class="license-card">
+          <h3>MIT</h3>
+
+          <p>
+            A simple and permissive license that allows people to use, modify and
+            distribute the software with certain conditions.
+          </p>
+        </article>
+
+
+        <article class="license-card">
+          <h3>Apache 2.0</h3>
+
+          <p>
+            A permissive license with additional terms, including terms related
+            to patents.
+          </p>
+        </article>
+
+
+        <article class="license-card">
+          <h3>GPL</h3>
+
+          <p>
+            A license that allows people to use and modify software, with
+            conditions that apply when modified versions are distributed.
+          </p>
+        </article>
+
+      </div>
+
+
+      <p class="small-note">
+        Always check the actual license of a project before reusing its code.
+      </p>
+
+    </section>
+
+
+    <section class="section quiz-section" id="quiz">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">06</p>
+
+        <h2>Quick quiz</h2>
+
+        <p>
+          See how much you remember.
+        </p>
+
+      </div>
+
+
+      <div class="quiz-card">
+
+        <div class="progress">
+
+          <span id="questionNumber">
+            Question 1 of 3
+          </span>
+
+          <div class="progress-track">
+            <div id="progressBar"></div>
+          </div>
+
+        </div>
+
+
+        <h3 id="questionText">
+          What makes software open source?
+        </h3>
+
+
+        <div id="answers" class="answers"></div>
+
+
+        <p id="quizFeedback" class="quiz-feedback"></p>
+
+
+        <button id="nextButton" class="button primary hidden">
+          Next question
+        </button>
+
+      </div>
+
+
+      <div id="quizResult" class="quiz-result hidden">
+
+        <h3>Your score</h3>
+
+        <p>
+          <span id="score">0</span> out of 3
+        </p>
+
+        <button id="restartButton" class="button secondary">
+          Try again
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <section class="section final-section">
+
+      <div class="final-card">
+
+        <p class="eyebrow">07</p>
+
+        <h2>Want to learn more?</h2>
+
+        <p>
+          You do not need to become a developer to understand open source.
+          You can start by looking at a project on GitHub, reading its README
+          and seeing how people contribute to it.
+        </p>
+
+        <p>
+          Open source is not just about getting software for free. It is also
+          about how software can be shared, studied and improved.
+        </p>
+
+        <a
+          class="button primary"
+          href="https://github.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          Explore GitHub
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <p>Open Source 101</p>
+
+    <p>
+      Made as part of a student research project on software adoption.
+    </p>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
