@@ -27,4 +27,6 @@ It was created as part of a student research project about how students choose a
 
 ## License
 
-This project is released under the MIT License.
+This project is released under the Unlicense.
+
+https://unlicense.org/
