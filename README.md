@@ -21,23 +21,9 @@ It was created as part of a student research project about how students choose a
 - `README.md` contains project information
 - `LICENSE` contains the MIT License
 
-## Run it locally
+## Visit the site
 
-No installation is required.
-
-Open `index.html` in a web browser.
-
-## GitHub Pages
-
-The project can be hosted using GitHub Pages.
-
-After uploading the files to a GitHub repository:
-
-1. Open the repository settings.
-2. Go to Pages.
-3. Select the main branch as the source.
-4. Save the settings.
-5. GitHub will provide the website URL.
+link
 
 ## License
 
